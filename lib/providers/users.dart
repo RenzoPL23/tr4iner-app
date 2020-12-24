@@ -66,7 +66,7 @@ class Users with ChangeNotifier {
       _lastname = loadedUser.lastname;
       notifyListeners();
     } catch (e) {
-      throw e;
+      print(e);
     }
   }
 }
